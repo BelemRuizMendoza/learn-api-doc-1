@@ -15,7 +15,8 @@ Represents the request to record a television program.
 |`date`|The date when the program will be transmitted.|string|Optional. **Default:** date of the record request.|**Format:** YYYY-MM-DD.|
 |`time`|The time when the transmission of the program will start.|string|required|**Attribute:** `format`, refers to the hour format and its valid values are "12" or "24". **Format:** HH:MM; adds AM or PM to the 12-hours format.|
 |`duration`|How many hours the program transmission will last.|number|required||
-|`channel`|The channel to record.|number|required||
+|`channel`|The channel to record.|number|required||  
+
 <br><br>
 
 ## Part 2: different TV request
