@@ -37,7 +37,8 @@ Represents the request to record a television program.
 |`duration`||The program lenght.|number data|required||
 ||`hours`|How many hours the program transmission will last.|number|required||
 |`station`||station data|required||
-||`channel`|The channel to record.|number|required||
+||`channel`|The channel to record.|number|required||  
+
 <br><br>
 
 ## Part 3: temperature and humidity
@@ -73,21 +74,24 @@ Represents the request to record a television program.
 ### Top level.
 |Element|Description|Type|
 |:------|:----------|:--:|
-|`dailyData`|Temperature and humidity data for one day.|`dailyData` element.|
+|`dailyData`|Temperature and humidity data for one day.|`dailyData` element.|  
+
 <br>
 
 ### `dailyData`: Represents temperature and humidity data for one day.
 |Element|Description|Type|Notes|
 |:------|:----------|:--:|:----|
 |`date`|The date when the temperature and humidity data was taken.|string|**Format:** YYYY-MM-DD..|
-|`hourlyData`|Temperature and humidity data corresponding to one hour.|`hourlyData` element.||
+|`hourlyData`|Temperature and humidity data corresponding to one hour.|`hourlyData` element.||  
+
 <br>
 
 ### `hourlyData`: Represents temperature and humidity data for one hour.
 |Element|Description|Type|Notes|
 |:------|:----------|:--:|:----|
 |`time`|The local time when the data was taken.|string|**Format:** HH:MM.|
-|`device`|One or more device objects with data from each device.|`device` element.||
+|`device`|One or more device objects with data from each device.|`device` element.||  
+
 <br>
 
 ### `device`: Contains temperature and humidity data from a device
@@ -95,7 +99,8 @@ Represents the request to record a television program.
 |:------|:----------|:--:|
 |`id`|The ID of the device.|number|
 |`temperature`|The measured temperature, in degrees Fahrenheit.|number|
-|`humidity`|The measured humidity, in percentage.|number|
+|`humidity`|The measured humidity, in percentage.|number|  
+
 <br><br><br>
 
 Exercise 4 from this [course].

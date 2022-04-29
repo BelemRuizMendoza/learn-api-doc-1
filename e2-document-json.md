@@ -11,7 +11,7 @@
 "danger": false
 }
 ```
-Displays the weather forecast for the specified day.  
+Represents the weather forecast for the specified day.  
 |Element|Description|Type|Notes|
 |:------|:----------|:--:|:----|
 |`date`|The date of the forecast.|string|Format is YYYY-MM-DD.|
@@ -19,7 +19,8 @@ Displays the weather forecast for the specified day.
 |`maxTemp`|The maximum expected temperature for the day.|number|In degrees Celsius.|
 |`minTemp`|The minimum expected temperature for the day.|number|In degrees Celsius.|
 |`windSpeed`|The expected speed of the wind for the day.|number|In kilometers per hour.|
-|`danger`|The warning is `true` if the weather conditions are dangerous; otherwise, `false`.|boolean||
+|`danger`|The warning is `true` if the weather conditions are dangerous; otherwise, `false`.|boolean|  
+
 <br><br>
 
 ## Step 2: three-day forecast
@@ -56,7 +57,7 @@ Displays the weather forecast for the specified day.
 ]
 }
 ```
-Displays the weather forecast for the specified days.  
+Represents the weather forecast for the specified days.  
 |Element|Description|Type|Notes|
 |:------|:----------|:--:|:----|
 |`longitude`|The longitude of the location where the forecast focuses.|number||
@@ -67,7 +68,8 @@ Displays the weather forecast for the specified days.
 |`maxTemp`|The maximum expected temperature for the day.|number|In degrees Celsius.|
 |`minTemp`|The minimum expected temperature for the day.|number|In degrees Celsius.|
 |`windSpeed`|The expected speed of the wind for the day.|number|In kilometers per hour.|
-|`danger`|The warning is `true` if the weather conditions are dangerous; otherwise, `false`.|boolean||
+|`danger`|The warning is `true` if the weather conditions are dangerous; otherwise, `false`.|boolean|  
+
 <br><br>
 
 ## Step 3: meeting request
