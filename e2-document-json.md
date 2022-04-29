@@ -87,6 +87,7 @@ Represents the weather forecast for the specified days.
     }
 }
 ```
+
 Represents a meeting request in a calendar.
 |Element|Description|Type|Required|Notes|
 |:------|:----------|:--:|:------:|:----|
@@ -97,7 +98,9 @@ Represents a meeting request in a calendar.
 |`location`|Through which platform is the meeting to occur.|string|optional|**Default:** empty string.|
 |`reminder`|How many minutes before the meeting a reminder must be sent to the invitee(s) and organizer.|number|optional|**Default:** 10 minutes.|
 |`invitees`|A list of email address(es) of the invitee(s) to the meeting.|array of string|optional|The email addresses must be valid. **Default:** empty array.|
+
 <br><br><br>
+
 ***
 Exercise 2 from this [course].
 
